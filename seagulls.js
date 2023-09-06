@@ -510,7 +510,7 @@ const seagulls = {
     })
     
     let resource = null, 
-        shouldBind = navigator.userAgent.indexOf('Firefox') === -1 && textures[0] !== null 
+        shouldBind = navigator.userAgent.indexOf('Firefox') === -1 && textures !== null && textures[0] !== null 
 
     
     let externalTextureBindGroup = null
